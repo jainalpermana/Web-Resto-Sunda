@@ -1,0 +1,86 @@
+.search {
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#FFFF00;
+	border-radius:7px;
+}
+.button:hover  {
+    background-color:;
+    color:#207cca;
+}
+
+
+#logo {width:200; height:200}
+h1 { font-family:sans-serif; font-size:100px; color:#FF0000;}
+h2 {font-family:verdana; font-size: 36px; color:#FF0000;}
+h3 {font-family:verdana; font-size:14px; color:#00FF00;}
+h4 {font-family:sans-serif; font-size:12px; color:#000000; font-style:italic}
+h5 {font-family:Arial; font-size:16px; color:#000000;}
+
+#slidercontainer { 
+  position: relative; 
+  overflow: hidden; 
+  background: #000 
+}
+#slidercontainer { 
+  width: 800px;
+  height: 400px; 
+}
+ 
+#css3slider img { 
+  width: 800px;
+  height: 400px; 
+  float: left;
+}
+ 
+#css3slider { 
+  position: absolute; 
+  width:3900px;  
+  -webkit-animation-name:slider;
+  -webkit-animation-duration:10s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count:infinite;
+  -moz-animation-name:slider;
+  -moz-animation-duration:10s;
+  -moz-animation-timing-function: ease-in-out;
+  -moz-animation-iteration-count:infinite;
+  -o-animation-name:slider;
+  -o-animation-duration:10s;
+  -o-animation-timing-function: ease-in-out;
+  -o-animation-iteration-count:infinite;
+  animation-name:slider;
+  animation-duration:10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count:infinite;
+}
+@-webkit-keyframes slider {     
+  0% { left: 0; opacity: 0; }     
+  2% { opacity: 1; }     
+  20% { left: 0; opacity: 1; }     
+  21% { opacity: 0; }     
+  24% { opacity: 0; }     
+  25% { left: -768px; opacity: 1; }       
+  45% { left: -768px; opacity: 1; }     
+  46% { opacity: 0; }     
+  48% { opacity: 0; }     
+  50% { left: -1536px; opacity: 1; }     
+  70% { left: -1536px; opacity: 1; }     
+  72% { opacity: 0; }     
+  74% { opacity: 0; }    
+  75% { left: -2304px; opacity: 1; }   	
+  95% { left: -2304px; opacity: 1; }   	
+  97%  { left: -2304px; opacity: 0;}   	
+  100% { left: 0; opacity: 0; }
+} 
+#size {height:800; width: 600; }
+#size2 {height: 300; width: 300; }
+
+.tabel {background-color:#999999; border-radius: 8px; border: #000000;}
